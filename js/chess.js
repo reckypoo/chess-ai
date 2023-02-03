@@ -39,7 +39,7 @@ var Chess = function(fen) {
     var KING = 'k'
   
     var SYMBOLS = 'pnbrqkPNBRQK'
-  
+    //FEN Notation to position board in starting places
     var DEFAULT_POSITION =
       'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
   

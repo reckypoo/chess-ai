@@ -112,6 +112,7 @@ var pst_w = {
     [-50, -30, -30, -30, -30, -30, -30, -50],
   ],
 };
+//Reverse table direction for black
 var pst_b = {
   p: pst_w['p'].slice().reverse(),
   n: pst_w['n'].slice().reverse(),
@@ -121,7 +122,7 @@ var pst_b = {
   k: pst_w['k'].slice().reverse(),
   k_e: pst_w['k_e'].slice().reverse(),
 };
-
+//Set up vars to initiate the board
 var pstOpponent = { w: pst_b, b: pst_w };
 var pstSelf = { w: pst_w, b: pst_b };
 
